@@ -1,0 +1,38 @@
+#abc{
+	font-size: 50px;
+	font-family: cursive;
+	background-color: violet;
+	background: 3px solid red;
+}
+p{
+    font-size: 30px;
+    font-family: cursive;
+    background-color: red;
+    background: 4px solid pink;
+    color: pink;
+
+
+}
+Div{
+	height: 40px;
+	width:40px;
+	background-color: pink;
+}
+*{
+	font-size: 40px;
+
+	font-family: cursive;
+	color: green;
+}
+input[type]{
+	color:blue
+}
+input[type="text"]{
+	color:red
+
+}
+input[type="number"]{
+	color:yellow
+}
+
+

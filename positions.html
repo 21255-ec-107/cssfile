@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>positions</title>
+	<style>
+		.a{
+			height: 100px;
+			width: 100px;
+			border:5px;
+		background-color: blue;
+		  float:left;
+		  position: static;
+		}
+		.b{
+			height: 200px;
+			width: 100px;
+			border:5px;
+		background-color: yellow;
+		   float:left;
+		   position: relative;
+		   top: 50px;
+		   left: 10px;
+		}
+		.c{
+			height: 100px;
+			width: 100px;
+			border:5px;
+		background-color:violet;
+		   float:left;
+		   position: absolute;
+		   top:20px;
+		   left:10px;
+		}
+		.d{
+			height: 100px;
+			width: 100px;
+			border:5px;
+		background-color:green;
+		   float:left;
+		   position: fixed;
+		   top: 300px;
+           left:50px;
+		}
+		.e{
+			height: 400px;
+			width: 200px;
+			border:5px;
+		background-color:pink;
+		border-color: red;
+		   float:left;
+		   position: relative;
+				}
+	</style>
+</head>
+<body>
+    <div class="a">static</div>
+    <div class="b">relative</div>
+   <div class="e"> <div class="c">absolute</div></div>
+    <div class="d">fixed</div>
+</body>
+</html>
